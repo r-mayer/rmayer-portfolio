@@ -1,0 +1,15 @@
+.main-btn {
+    border: none;
+    padding: 0.8rem 1.6rem;
+    font-size: 0.9rem;
+    background-color: var(--main);
+    color: var(--white);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-family: "Poppins", sans-serif;
+}
+
+.main-btn:hover {
+    opacity: 0.9;
+}

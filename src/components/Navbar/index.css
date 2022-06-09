@@ -1,0 +1,36 @@
+.navbar-container {
+    width: 100%;
+    padding: 1rem 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(185, 185, 185);
+    box-shadow: 0px 5px 20px 1px rgba(107, 107, 107, 0.05);
+}
+
+.navbar-list {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.navbar-item {
+    margin: 0 2rem;
+    color: var(--black);
+}
+
+.icon-margin {
+    margin-left: 0.3rem;
+}
+
+.logo {
+    color: var(--black);
+    border: 2px solid #00414fbb;
+    padding: 0.5rem 1rem;
+    cursor: default;
+    transition: all 0.3s;
+}
+
+.logo:hover {
+    border: 2px solid #b67f19d0;
+}

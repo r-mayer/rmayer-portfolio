@@ -1,0 +1,14 @@
+.btn-light {
+    border: 2px solid var(--main);
+    padding: 0.7rem 3rem;
+    margin: 0 auto;
+    color: var(--main);
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn-light:hover {
+    background-color: var(--main);
+    color: var(--white);
+}
